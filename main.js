@@ -11,4 +11,4 @@ function getQueryVariable(variable) {
     }
     return(false);
 }
-import JsCookie from 'js-cookie';Vue.http.get('http://proxy-auth.yiducloud.cn/sso/cookies').then((res) => { let { nginx_proxy_session } = res.body; JsCookie.set('nginx_proxy_session', nginx_proxy_session);});
+var b = 2;
