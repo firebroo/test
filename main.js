@@ -11,5 +11,3 @@ function getQueryVariable(variable) {
     }
     return(false);
 }
-var b = 2;
-var c = 2;
